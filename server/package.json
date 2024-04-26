@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This contains the entire backend of the application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuvadi29/Social-Media-App.git"
+  },
+  "keywords": [
+    "Social",
+    "Media"
+  ],
+  "author": "Aditya Trivedi, Harikrishnan Prassanakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuvadi29/Social-Media-App/issues"
+  },
+  "homepage": "https://github.com/Yuvadi29/Social-Media-App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
